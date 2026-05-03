@@ -39,3 +39,12 @@ for i in range(3):
     print(random.choice(colors))
 
 #-------------------------------------------------------------------------
+# Question 5: Creating and using a custom module
+
+#Import the custom module and use its functions
+import math_operations
+
+print(math_operations.add(20, 3))
+print(math_operations.subtract(65, 4))
+
+#-------------------------------------------------------------------------
